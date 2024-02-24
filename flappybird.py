@@ -1,7 +1,3 @@
-#! /usr/bin/env python3
-
-"""Flappy Bird, implemented using Pygame."""
-
 import math
 import os
 from random import randint
@@ -390,6 +386,5 @@ def main():
 
 
 if __name__ == '__main__':
-    # If this module had been imported, __name__ would be 'flappybird'.
-    # It was executed (e.g. by double-clicking the file), so call main.
+    
     main()
